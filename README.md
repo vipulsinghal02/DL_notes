@@ -4,26 +4,26 @@ This collection provides comprehensive pytorch and related tutorials.
 
 ## Part 1: Foundations
 
-### 1. [python_basics.ipynb](a_basics/python_basics.ipynb)
+### 1. [python_basics.ipynb](a_basics/01a_python_basics.ipynb)
 Core Python syntax, data types, control flow, functions, classes, and file I/O
 
-### 2. [pandas_basics.ipynb](a_basics/pandas_basics.ipynb)
+### 2. [pandas_basics.ipynb](a_basics/03a_pandas_basics.ipynb)
 Data manipulation, DataFrames, indexing, grouping, merging, and time series
 
-### 3. [numpy_basics.ipynb](a_basics/numpy_basics.ipynb)
+### 3. [numpy_basics.ipynb](a_basics/02a_numpy_basics.ipynb)
 Array operations, mathematical functions, linear algebra, and performance tips
 
-### 4. [matplotlib_basics.ipynb](a_basics/matplotlib_basics.ipynb)
+### 4. [matplotlib_basics.ipynb](a_basics/04a_matplotlib_basics.ipynb)
 Essential plotting techniques, customization, subplots, and saving figures
 
-### 5. [scikit_learn_basics.ipynb](a_basics/scikit_learn_basics.ipynb)
+### 5. [scikit_learn_basics.ipynb](a_basics/05a_scikit_learn_basics.ipynb)
 Machine learning workflows, classification, regression, clustering, and model comparison
 
 *Each Part 1 notebook is designed for breadth over depth. They include practical examples with scientific data scenarios and cover the most commonly used features of each library.*
 
 ## Part 2: Advanced Techniques
 
-### 1. [python_basics_part2.ipynb](a_basics/python_basics_part2.ipynb) - Advanced Python Concepts
+### 1. [python_basics_part2.ipynb](a_basics/01b_python_basics_part2.ipynb) - Advanced Python Concepts
 - Advanced functions (`*args`, `**kwargs`, decorators, closures)
 - Context managers and the `with` statement
 - Generators and iterators
@@ -32,7 +32,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Metaprogramming and introspection
 - Concurrency and performance optimization
 
-### 2. [pandas_basics_part2.ipynb](a_basics/pandas_basics_part2.ipynb) - Advanced Data Analysis
+### 2. [pandas_basics_part2.ipynb](a_basics/03b_pandas_basics_part2.ipynb) - Advanced Data Analysis
 - MultiIndex and hierarchical indexing
 - Advanced GroupBy operations and custom aggregations
 - Advanced time series analysis and resampling
@@ -40,7 +40,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Performance optimization and memory management
 - Advanced plotting integration with statistical analysis
 
-### 3. [numpy_basics_part2.ipynb](a_basics/numpy_basics_part2.ipynb) - Advanced Numerical Computing
+### 3. [numpy_basics_part2.ipynb](a_basics/02b_numpy_basics_part2.ipynb) - Advanced Numerical Computing
 - Advanced array operations and broadcasting
 - Linear algebra decompositions (SVD, PCA, QR, Cholesky)
 - Signal processing and Fourier analysis
@@ -48,7 +48,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Optimization and root finding with scipy
 - Memory optimization and performance techniques
 
-### 4. [matplotlib_basics_part2.ipynb](a_basics/matplotlib_basics_part2.ipynb) - Advanced Visualization
+### 4. [matplotlib_basics_part2.ipynb](a_basics/04b_matplotlib_basics_part2.ipynb) - Advanced Visualization
 - Complex subplot layouts with GridSpec
 - Advanced 3D plotting and surface visualization
 - Publication-quality figures and professional styling
@@ -57,7 +57,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Animation and dynamic visualizations
 - Custom colormaps and advanced styling
 
-### 5. [scikit_learn_basics_part2.ipynb](a_basics/scikit_learn_basics_part2.ipynb) - Advanced Machine Learning
+### 5. [scikit_learn_basics_part2.ipynb](a_basics/05b_scikit_learn_basics_part2.ipynb) - Advanced Machine Learning
 - Advanced preprocessing and feature engineering pipelines
 - Hyperparameter tuning with GridSearch and RandomizedSearch
 - Feature selection and importance analysis
@@ -69,7 +69,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 
 ## Part 3: Deep Learning with PyTorch
 
-### 1. [pytorch_basics_part1.ipynb](b_pytorch_ipynb/pytorch_basics_part1.ipynb) - PyTorch Fundamentals
+### 1. [pytorch_basics_part1.ipynb](b_pytorch_ipynb/06_pytorch_basics_part1.ipynb) - PyTorch Fundamentals
 - Tensor creation, properties, and operations
 - Device management (CPU/GPU) and data type handling
 - Basic tensor manipulations and mathematical operations
@@ -77,7 +77,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Broadcasting and reduction operations
 - NumPy integration and data conversion
 
-### 2. [pytorch_basics_part2.ipynb](b_pytorch_ipynb/pytorch_basics_part2.ipynb) - Autograd and Neural Networks
+### 2. [pytorch_basics_part2.ipynb](b_pytorch_ipynb/06_pytorch_basics_part2.ipynb) - Autograd and Neural Networks
 - Automatic differentiation with autograd
 - Building neural networks with nn.Module
 - Common layers (Linear, Conv2d, pooling) and activation functions
@@ -85,7 +85,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Training loops and gradient management
 - Model saving and loading
 
-### 3. [pytorch_basics_part3.ipynb](b_pytorch_ipynb/pytorch_basics_part3.ipynb) - Data Loading and Datasets
+### 3. [pytorch_basics_part3.ipynb](b_pytorch_ipynb/06_pytorch_basics_part3.ipynb) - Data Loading and Datasets
 - Custom Dataset classes and data preprocessing
 - DataLoader for efficient batching and shuffling
 - Train/validation/test splits with random_split
@@ -93,7 +93,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Working with CSV files and real datasets
 - Data normalization and standardization best practices
 
-### 4. [pytorch_basics_part4.ipynb](b_pytorch_ipynb/pytorch_basics_part4.ipynb) - CNNs and Computer Vision
+### 4. [pytorch_basics_part4.ipynb](b_pytorch_ipynb/06_pytorch_basics_part4.ipynb) - CNNs and Computer Vision
 - Convolutional layers and kernel operations
 - CNN architectures and building blocks
 - Image data preprocessing and augmentation
@@ -101,7 +101,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Transfer learning and pre-trained models
 - Feature visualization and model interpretation
 
-### 5. [pytorch_basics_part5.ipynb](b_pytorch_ipynb/pytorch_basics_part5.ipynb) - Advanced Topics and Production
+### 5. [pytorch_basics_part5.ipynb](b_pytorch_ipynb/06_pytorch_basics_part5.ipynb) - Advanced Topics and Production
 - Mixed precision training for efficiency
 - Model quantization and optimization techniques
 - TorchScript for model serialization and deployment
@@ -109,7 +109,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Model checkpointing and distributed training
 - Production deployment considerations and best practices
 
-### 6. [pytorch_basics_part6.ipynb](b_pytorch_ipynb/pytorch_basics_part6.ipynb) - RNNs and Natural Language Processing
+### 6. [pytorch_basics_part6.ipynb](b_pytorch_ipynb/06_pytorch_basics_part6.ipynb) - RNNs and Natural Language Processing
 - Recurrent Neural Networks (SimpleRNN, LSTM, GRU)
 - Text preprocessing and tokenization techniques
 - Sequence modeling and language modeling
@@ -117,7 +117,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Handling variable-length sequences
 - Word embeddings and their applications
 
-### 7. [pytorch_basics_part7.ipynb](b_pytorch_ipynb/pytorch_basics_part7.ipynb) - Transformers and Modern NLP
+### 7. [pytorch_basics_part7.ipynb](b_pytorch_ipynb/06_pytorch_basics_part7.ipynb) - Transformers and Modern NLP
 - Attention mechanisms and scaled dot-product attention
 - Multi-head attention and positional encoding
 - Building Transformer encoders from scratch
@@ -125,7 +125,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Fine-tuning strategies for NLP tasks
 - Hugging Face Transformers integration
 
-### 8. [pytorch_basics_part8.ipynb](b_pytorch_ipynb/pytorch_basics_part8.ipynb) - Generative Models and Unsupervised Learning
+### 8. [pytorch_basics_part8.ipynb](b_pytorch_ipynb/06_pytorch_basics_part8.ipynb) - Generative Models and Unsupervised Learning
 - Autoencoders and dimensionality reduction
 - Variational Autoencoders (VAEs) for probabilistic modeling
 - Generative Adversarial Networks (GANs)
@@ -133,7 +133,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Contrastive learning and representation learning
 - Comparing different generative approaches
 
-### 9. [pytorch_basics_part9.ipynb](b_pytorch_ipynb/pytorch_basics_part9.ipynb) - Advanced Architectures and Specialized Domains
+### 9. [pytorch_basics_part9.ipynb](b_pytorch_ipynb/06_pytorch_basics_part9.ipynb) - Advanced Architectures and Specialized Domains
 - Graph Neural Networks (GNNs) and node classification
 - Vision Transformers (ViTs) for image recognition
 - Object detection with YOLO-style architectures
@@ -141,7 +141,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Multi-modal learning (combining vision and text)
 - Advanced architectural patterns and design principles
 
-### 10. [pytorch_basics_part10.ipynb](b_pytorch_ipynb/pytorch_basics_part10.ipynb) - MLOps and Advanced Production
+### 10. [pytorch_basics_part10.ipynb](b_pytorch_ipynb/06_pytorch_basics_part10.ipynb) - MLOps and Advanced Production
 - Experiment tracking and reproducibility
 - Model registry and version management
 - Model monitoring and drift detection
@@ -153,7 +153,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 
 ## Part 4: Graph Neural Networks with PyTorch Geometric
 
-### 1. [pytorch_geometric_part1.ipynb](c_torch_geometric_ipynb/pytorch_geometric_part1.ipynb) - Message Passing Networks
+### 1. [pytorch_geometric_part1.ipynb](c_torch_geometric_ipynb/07_pytorch_geometric_part1.ipynb) - Message Passing Networks
 - Graph Convolutional Networks (GCN) fundamentals and spectral approaches
 - GraphSAGE with neighbor sampling and inductive learning capabilities
 - Graph Isomorphism Networks (GIN) for theoretically powerful graph classification
@@ -161,7 +161,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Comprehensive comparison on node classification tasks
 - CPU optimization strategies for MacBook Air M2
 
-### 2. [pytorch_geometric_part2.ipynb](c_torch_geometric_ipynb/pytorch_geometric_part2.ipynb) - Graph Autoencoders
+### 2. [pytorch_geometric_part2.ipynb](c_torch_geometric_ipynb/07_pytorch_geometric_part2.ipynb) - Graph Autoencoders
 - Graph Autoencoder (GAE) for unsupervised graph representation learning
 - Variational Graph Autoencoder (VGAE) with probabilistic latent spaces
 - Link prediction tasks and evaluation metrics (AUC, AP)
@@ -169,7 +169,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Graph reconstruction quality analysis and visualization
 - Memory-efficient training techniques for CPU environments
 
-### 3. [pytorch_geometric_part3.ipynb](c_torch_geometric_ipynb/pytorch_geometric_part3.ipynb) - Graph Transformers
+### 3. [pytorch_geometric_part3.ipynb](c_torch_geometric_ipynb/07_pytorch_geometric_part3.ipynb) - Graph Transformers
 - Graph positional encoding strategies (Laplacian, degree-based, learned)
 - Multi-head self-attention mechanisms adapted for graph structures
 - Complete Graph Transformer (GraphiT) architecture implementation
@@ -177,7 +177,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 - Attention pattern analysis and visualization for interpretability
 - Comparison with traditional GNNs on node and graph classification
 
-### 4. [pytorch_geometric_part4.ipynb](c_torch_geometric_ipynb/pytorch_geometric_part4.ipynb) - Memory-Enhanced GNNs
+### 4. [pytorch_geometric_part4.ipynb](c_torch_geometric_ipynb/07_pytorch_geometric_part4.ipynb) - Memory-Enhanced GNNs
 - GraphSAINT sampling strategies (random walk, node, edge sampling)
 - FastGCN with importance sampling for scalable neighbor selection
 - Memory usage monitoring and optimization techniques
