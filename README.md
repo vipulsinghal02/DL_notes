@@ -1,6 +1,6 @@
 # Python Learning Notebooks for Scientists
 
-This collection provides comprehensive pytorch and related tutorials. The notebooks are organized into foundational and advanced levels for maximum learning efficiency.
+This collection provides comprehensive pytorch and related tutorials. 
 
 ## Part 1: Foundations
 
