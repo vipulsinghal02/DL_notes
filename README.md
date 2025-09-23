@@ -19,7 +19,7 @@ Essential plotting techniques, customization, subplots, and saving figures
 ### 5. [scikit_learn_basics.ipynb](a_basics/scikit_learn_basics.ipynb)
 Machine learning workflows, classification, regression, clustering, and model comparison
 
-*Each Part 1 notebook is designed for breadth over depth, perfect for experienced scientists learning Python syntax. They include practical examples with scientific data scenarios and cover the most commonly used features of each library.*
+*Each Part 1 notebook is designed for breadth over depth. They include practical examples with scientific data scenarios and cover the most commonly used features of each library.*
 
 ## Part 2: Advanced Techniques
 
