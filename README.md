@@ -1,8 +1,8 @@
-# Python Learning Notebooks for Scientists
+# Pytorch, Pytorch Geometric Learning Notebooks
 
 This collection provides comprehensive pytorch and related tutorials. 
 
-## Part 1: Foundations
+## Part 1: Foundations (review)
 
 ### 1. [python_basics.ipynb](a_basics/01a_python_basics.ipynb)
 Core Python syntax, data types, control flow, functions, classes, and file I/O
@@ -21,7 +21,7 @@ Machine learning workflows, classification, regression, clustering, and model co
 
 *Each Part 1 notebook is designed for breadth over depth. They include practical examples with scientific data scenarios and cover the most commonly used features of each library.*
 
-## Part 2: Advanced Techniques
+## Part 2: Advanced Techniques (review)
 
 ### 1. [python_basics_part2.ipynb](a_basics/01b_python_basics_part2.ipynb) - Advanced Python Concepts
 - Advanced functions (`*args`, `**kwargs`, decorators, closures)
